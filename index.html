@@ -32,10 +32,11 @@
 						<nav>
 							<ul>
 								<li><a href="#intro">Intro</a></li>
+								<li><a href="#projects">Projects</a></li>
 								<li><a href="#work">Work</a></li>
-								<li><a href="#about">About</a></li>
+								<li><a href="#resume">Resume</a></li>
 								<li><a href="#contact">Contact</a></li>
-								<!--<li><a href="#elements">Elements</a></li>-->
+								
 							</ul>
 						</nav>
 					</header>
@@ -46,56 +47,88 @@
 						<!-- Intro -->
 							<article id="intro">
 								<h2 class="major">Intro</h2>
-								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
-								<p>Devoted to technology that can better lives in ways big or small. Experience with data analysis and web development tools.  <a href="#work">awesome work</a>.</p>
+								<div class="profilePicContainer" style="width: 190px; height: 200px; overflow: hidden; position: relative; border-radius: 100%">
+									<img src="images/PhotoEdit3.png" alt="" width="450px" style="object-fit: cover; position: relative; left: -132px; top: -180px; transform: rotate(-3deg);"/>
+								</div>
+								<!-- <span class="image main"><img src="images/PhotoEdit3.png" alt="" width="500px" /></span> -->
+								<p>Devoted to technology that can better lives in ways big or small. Interested in algorithm design, data analysis, and web development.  <a href="#projects">my projects</a></p>
 								<p>I have created personal assistance and machine learning projects using React and Tensorflow, and I'm currently working on collaborative efforts to encourage social interaction through React Native and Python apps.</p>
 							</article>
 
 						<!-- Work -->
-							<article id="work">
+							<article id="projects">
 								<h2 class="major">Projects</h2>
-								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
+								<!-- <span class="image main"><img src="images/pic02.jpg" alt="" /></span> -->
 								<p>
-									Multithreaded Distributed Password Cracker
-									github.com/Blake-Dowling/Distributed-Parallel-Cracker
-									Achieves time-efficient brute-force cracking of DES encrypted hashes.
-									Uses C++, Posix thread library, and multicast + TCP socket communication to maximally utilize 4           24-core servers.
-									Threadpool design allows use with a variable number of cores.
-									Cracks 16-character hashes with 2000% speedup from sequential, using true radix cracking algorithm which placed first in advanced C++ programming competition.
+									<b>Multithreaded Distributed Password Cracker</b><br>
+									<a>github.com/Blake-Dowling/Distributed-Parallel-Cracker</a>
+									<ul>
+										<li>Achieves time-efficient brute-force cracking of DES encrypted hashes</li>
+										<li>Uses C++, Posix thread library, and multicast + TCP socket communication to maximally utilize 4 24-core servers</li>
+										<li>Threadpool design allows use with a variable number of cores</li>
+										<li>Cracks 16-character hashes with 2000% speedup from sequential, using true radix cracking algorithm which placed first in advanced C++ programming competition</li>
+									</ul>
+									<span class="image main"><img src="images/crackerpic1.png" alt="" /></span>
+									<!-- <span class="image main"><video controls><source src="images/SnakeClip1.mp4" type="video/mp4"></video> </span> -->
 								</p>
 								<p>
-									Resume Generator
-									github.com/Blake-Dowling/Resume-Generator
-									Visual interface for css styling of downloadable resume with built-in templates.
-									Javascript-implemented dynamic stylesheets and custom css features such as popups, accordions, and buttons.
-									React used to deploy terse, modular PMV application with live rendering
+									<b>CSS Resume Generator</b><br>
+									<a>github.io/Resume-Generator/</a>
+									<a>github.com/Blake-Dowling/Resume-Generator</a>
+									
+									<ul>
+										<li>Visual interface for css styling of downloadable resume with built-in templates</li>
+										<li>Uses React state for dynamic stylesheets and self-made css features such as popups, accordions, carousels, inputs, and buttons</li>
+										<li>React used to deploy terse, modular MVC application with live rendering</li>
+									<ul>
+									<span class="image main"><img src="images/resumepic1.png" alt="" /></span>
 								<p>
-									Neural Network Q-Learning Snake Game Agent
-									github.com/Blake-Dowling/Snake-V2
-									Finds the most efficient Keras model to win a Python Snake implementation
-									Created a Tensor and Keras model visualizer using matplotlib and Tensorboard for debugging, testing, and model evaluation.
-									Designed for modular replacement of Keras models, logs, tensors, and performance data
-									Wins a 20x20 snake game using only tensorflow
+									<b>Neural Network Q-Learning Snake Game Agent</b><br>
+									<a>github.com/Blake-Dowling/Deep-Q-Snake</a>
+									<ul>
+										<li>Trains a Tensorflow deep neural network to win Snake using Q-Learning</li>
+										<li>Created a Tensor and Keras model visualizer using Matplotlib and Tensorboard for debugging, testing, and model evaluation</li>
+										<li>Uses a 3-layer categorical crossentropy Keras model and training arrays of 13-node states to apply reinforcement deep learning</li>
+										<li>Wins a 4x4 snake game using 4,500 training frames</li>
+									</ul>
+									<span class="image main"><img src="images/snakepic1.png" alt="" /></span>
 								</p>
 								<p>
-									Mobile Travel Planner
-									github.com/kesparik/CSE-115A-Road-Trip-Project
-									Vacation-centered social media platform enabling creation and sharing of directions and trip information.
-									Google Maps cloned to allow trip creation using Directions API.
-									Node.js used to access Spotify, gasbuddy, and weather APIs and enhance directions feature.
-									Uses React Native and Nativewind to create cross-platform social media forum with enhanced UI.
-									Worked with a team using Agile practices to organize workflow and present the product to class.
+									<b>Mobile Travel Planner</b><br>
+									<a>github.com/kesparik/CSE-115A-Road-Trip-Project</a>
+									<ul>
+									<li>Vacation-centered social media platform enabling creation and sharing of directions and trip information</li>
+									<li>Google Maps cloned to allow trip creation using Directions API</li>
+									<li>Node.js used to access Spotify, gasbuddy, and weather APIs and enhance directions feature</li>
+									<li>Uses React Native and Nativewind to create cross-platform social media forum with enhanced UI</li>
+									<li>Worked with a team using Agile practices to organize workflow and present the product to class</li>
+									</ul>
+									<span class="image main"><img src="images/tripify1.png" alt="" /></span>
 								</p>
 							
 							</article>
 
 						<!-- About -->
-							<article id="about">
-								<h2 class="major">About</h2>
+							<article id="work">
+								<h2 class="major">Work</h2>
 								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-								<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+								<p>UC Santa Cruz, Baskin Engineering
+									Computer Science and Engineering Course Reader
+									<ul>
+										<li>Collaborated closely with faculty and peers to cultivate a fair and constructive academic environment</li>
+										<li>Encouraged student persistence by acknowledging effort through thoughtful explanations of corrections</li>
+										<li>Raised awareness of students’ insights by practicing careful interpretation and communicating concerns with reading team</li>
+									</ul>
+								</p>
 							</article>
 
+							<!-- Resume -->
+							<article id="resume">
+								<h2 class="major">Resume</h2>
+
+								<span class="image main"><a href="images/Resume2.pdf"><img src="images/Resume2.png" alt="" /></a></span>
+
+							</article>
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contact</h2>
@@ -128,7 +161,7 @@
 			</div>
 
 		<!-- BG -->
-			<div id="bg"></div>
+			<!-- <div id="bg"></div> -->
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
